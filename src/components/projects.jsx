@@ -2,10 +2,22 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
-  { title: "E-commerce Platform", description: "A full-stack e-commerce solution built with React and Node.js." },
-  { title: "AI Chat Assistant", description: "An intelligent chatbot powered by machine learning algorithms." },
-  { title: "Fitness Tracker App", description: "A mobile app for tracking workouts and nutrition using React Native." },
-]
+  { 
+    title: "UChat", 
+    description: "A full-stack chat application built with React, Node.js and WebSockets.", 
+    githubUrl: "https://github.com/yourusername/uchat" 
+  },
+  { 
+    title: "Job Posting Platform", 
+    description: " Developed an interactive front-end design for a freelancer job posting site with React and Tailwind CSS", 
+    githubUrl: "https://github.com/yourusername/freelancer-hiring-platform" 
+  },
+  { 
+    title: "Online Catalog Maker", 
+    description: "Engineered an innovative solution enabling seamless customization of digital catalogs through a user-friendly interface", 
+    githubUrl: "https://github.com/yourusername/e-catalog-maker" 
+  },
+];
 
 export default function Projects() {
   return (
@@ -29,12 +41,20 @@ export default function Projects() {
             viewport={{ once: true }}
             whileHover={{ scale: 1.05 }}
           >
-            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 transition-colors"
+              >
+                {project.title}
+              </a>
+            </h3>
             <p className="text-gray-400">{project.description}</p>
           </motion.div>
         ))}
       </div>
     </motion.section>
-  )
+  );
 }
-

@@ -1,22 +1,25 @@
 @import "tailwindcss";
 
-/* Import Inter font from Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* Define root color variables */
+
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-rgb: 0, 0, 0;
 }
 
-/* Apply global styles */
 body {
   color: rgb(var(--foreground-rgb));
   font-family: 'Inter', sans-serif;
   background: rgb(var(--background-rgb));
 }
 
-/* Add custom base styles using Tailwind's @layer directive */
+html {
+  scroll-behavior: smooth;
+}
+
+
 @layer base {
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;

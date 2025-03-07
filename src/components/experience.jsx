@@ -8,9 +8,9 @@ const experiences = [
     period: "2023 - Present",
     description: [
       "Pursuing BE-CSE", 
-      "Dean’s List for academic excellence",
-      "Honored by the Chancellor for outstanding performance",
-      "Active member of the Debate Society & Basketball Team",
+      "Dean’s List for academic excellence.",
+      "Honored by the Chancellor for outstanding performance.",
+      "Active member of the Debate Society & Basketball Team.",
     ],
   },
   {
@@ -18,9 +18,9 @@ const experiences = [
     company: "Internal University Round",
     period: "2024",
     description: [
-      "Cleared the university-level round for SIH 2024",
-      "Competed against top student teams in problem-solving challenges",
-      "Gained experience in team collaboration and innovative thinking",
+      "Cleared the university-level round for SIH 2024.",
+      "Competed against top student teams.",
+      "Gained experience in team collaboration and innovative thinking.",
     ],
   },
   {
@@ -28,9 +28,9 @@ const experiences = [
     company: "Self-employed",
     period: "2023 - Present",
     description: [
-      "Built a real-time chat application using WebSockets",
-      "Created a job listing website using MERN stack",
-      "Contributed to open-source projects on GitHub",
+      "Built a real-time chat application using WebSockets.",
+      "Created a job listing website using MERN stack.",
+      "Contributed to open-source projects on GitHub.",
     ],
   },
   {

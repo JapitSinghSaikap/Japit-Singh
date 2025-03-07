@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Header from './components/header';
 import Contact from './components/Contacts';
 import Experience from "./components/experience";
+import Skills from "./components/skills";
 // import Projects from "./components/Projects";
 
 const Particle = ({ x, y, size, delay }) => {
@@ -126,6 +127,7 @@ function App() {
           <Navbar />
           <Header />
           <About />
+          {/* <Skills/> */}
           <Projects />
           <Experience/>
           <Contact />
